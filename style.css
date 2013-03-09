@@ -46,7 +46,7 @@ a:hover {
 input[type="submit"], table tr:nth-last-child(2) tr:last-child .title a, html body table tr table tr:last-child .title a {
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 13px;
-    color: white;
+    color: white !important;
     background: -webkit-gradient(linear,left top,left bottom,from(#4D90FE),to(#4787ED));
     border: 1px solid #4079D6;
     padding: 5px 10px;
@@ -236,6 +236,11 @@ form[action="/r"] input[type="text"], form[action="/r"] textarea {
 /* DMCA Page */
 div.wordsection1:before {
     content: "DMCA Page";
+}
+.expired-link {
+    margin-top: 16px;
+}
+div.wordsection1:before, .expired-link {
     display: block;
     text-align: center;
     font-size: 40px;
