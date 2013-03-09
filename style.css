@@ -219,6 +219,9 @@ form[action="/r"] input[type="text"], form[action="/r"] textarea {
     display: none;
     border-radius: 4px;
 }
+#submit-overlay table {
+    left: 15px;
+}
 #overlay-bg {
     background: #000;
     opacity: .6;
@@ -249,7 +252,7 @@ span.mark_all_read img:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,0.2);
 }
 html body center table tbody tr:first-child td table span.mark_all_read img {
-    left: 20px;
+    left: 7px;
 }
 span.hide_comments_span {
     font-size: 12px;

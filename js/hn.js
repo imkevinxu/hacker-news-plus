@@ -7,6 +7,8 @@
 */
 var HN = {
 	init: function() {
+
+		$('link[rel="shortcut icon"]').attr('type', 'image/x-icon').attr('href', chrome.extension.getURL("/images/icon-48.png"));
 		$('td[bgcolor="#ff6600"]').css({
 			"backgroundColor" : "none !important"
 		});
@@ -17,7 +19,7 @@ var HN = {
 		$('.comment *').css({"color" : "#373736"});
 		$('td[bgcolor="#ff6600"]').css({"backgroundColor" : "none !important"});
 		$('img').each(function(){
-      var src = $(this).attr("src");
+      	var src = $(this).attr("src");
 			if (src == "http://ycombinator.com/images/s.gif" || src == "/sslyc/images/s.gif"){
 				var new_width = $(this).attr("width");
 				$(this).parent().css({"width": new_width});
@@ -43,7 +45,6 @@ var HN = {
 		$("input[name='q']").attr('placeholder','Search');
 
 		HN.init_inputs();
-
 		HN.remove_pipes();
 		HN.init_keys();
 		HN.check_for_expired_link();
