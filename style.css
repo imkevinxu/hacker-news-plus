@@ -85,7 +85,7 @@ input[type="text"] {
 .subtext {
     color: #b8b8b8;
     font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 12px;
+    font-size: 12px !important;
     padding-bottom: 15px;
 }
 .subtext a, .comhead a {
@@ -154,7 +154,7 @@ textarea {
 input[name="q"] {
     position: absolute;
     top: 30px;
-    left: 395px;
+    left: 435px;
     width: 270px;
     border-radius: 2px;
     color: #c1c6cb !important;
@@ -272,4 +272,7 @@ html body center table tbody tr:first-child td table span.mark_all_read img {
 span.hide_comments_span {
     font-size: 12px;
     left: 1px;
+}
+a[href="user?id=pg"] {
+    font-weight: bold;
 }
