@@ -2,6 +2,10 @@ HN+ for Chrome
 ============
 A stylish Hacker News extension for Chrome. Original by [@jarques](https://github.com/jarques) and customized by [@imkevinxu](https://github.com/imkevinxu)
 
+I customized the extension to make it work nicely with [Hacker News: Mark All Read](https://chrome.google.com/webstore/detail/hacker-news-mark-all-read/ogfbcfkihdkplelnaenpgkhnkpoaggjc) extension
+
+![Screenshot](screenshot.png)
+
 ## How to use
 If you want the stable release, visit the extension on the [Chrome Extension Store](https://chrome.google.com/webstore/detail/oieefcckcbbgniifdhhialgkmghahjgl)
 
